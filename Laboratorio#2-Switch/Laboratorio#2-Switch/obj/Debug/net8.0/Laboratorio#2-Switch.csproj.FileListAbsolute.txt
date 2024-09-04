@@ -1,0 +1,14 @@
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\Laboratorio#2-Switch.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\Laboratorio#2-Switch.AssemblyInfoInputs.cache
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\Laboratorio#2-Switch.AssemblyInfo.cs
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\Laboratorio#2-Switch.csproj.CoreCompileInputs.cache
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\bin\Debug\net8.0\Laboratorio#2-Switch.exe
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\bin\Debug\net8.0\Laboratorio#2-Switch.deps.json
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\bin\Debug\net8.0\Laboratorio#2-Switch.runtimeconfig.json
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\bin\Debug\net8.0\Laboratorio#2-Switch.dll
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\bin\Debug\net8.0\Laboratorio#2-Switch.pdb
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\Laboratorio#2-Switch.dll
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\refint\Laboratorio#2-Switch.dll
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\Laboratorio#2-Switch.pdb
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\Laboratorio#2-Switch.genruntimeconfig.cache
+H:\Programacion S.I\Programación\Laboratorio#2-Switch\Laboratorio#2-Switch\obj\Debug\net8.0\ref\Laboratorio#2-Switch.dll

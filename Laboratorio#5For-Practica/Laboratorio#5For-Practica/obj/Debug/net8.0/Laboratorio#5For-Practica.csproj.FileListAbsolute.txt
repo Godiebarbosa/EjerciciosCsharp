@@ -1,0 +1,14 @@
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\Laboratorio#5For-Practica.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\Laboratorio#5For-Practica.AssemblyInfoInputs.cache
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\Laboratorio#5For-Practica.AssemblyInfo.cs
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\Laboratorio#5For-Practica.csproj.CoreCompileInputs.cache
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\bin\Debug\net8.0\Laboratorio#5For-Practica.exe
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\bin\Debug\net8.0\Laboratorio#5For-Practica.deps.json
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\bin\Debug\net8.0\Laboratorio#5For-Practica.runtimeconfig.json
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\bin\Debug\net8.0\Laboratorio#5For-Practica.dll
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\bin\Debug\net8.0\Laboratorio#5For-Practica.pdb
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\Laboratorio#5For-Practica.dll
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\refint\Laboratorio#5For-Practica.dll
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\Laboratorio#5For-Practica.pdb
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\Laboratorio#5For-Practica.genruntimeconfig.cache
+G:\Programacion S.I\Programación\Laboratorio#5For-Practica\Laboratorio#5For-Practica\obj\Debug\net8.0\ref\Laboratorio#5For-Practica.dll

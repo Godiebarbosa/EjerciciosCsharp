@@ -1,0 +1,28 @@
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\Todas en una.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\Todas en una.AssemblyInfoInputs.cache
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\Todas en una.AssemblyInfo.cs
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\Todas en una.csproj.CoreCompileInputs.cache
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\bin\Debug\net8.0\Todas en una.exe
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\bin\Debug\net8.0\Todas en una.deps.json
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\bin\Debug\net8.0\Todas en una.runtimeconfig.json
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\bin\Debug\net8.0\Todas en una.dll
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\bin\Debug\net8.0\Todas en una.pdb
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\Todas en una.dll
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\refint\Todas en una.dll
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\Todas en una.pdb
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\Todas en una.genruntimeconfig.cache
+H:\Programacion S.I\Programación\EjerciciosC#\Todas en una\obj\Debug\net8.0\ref\Todas en una.dll
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\Todas en una.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\Todas en una.AssemblyInfoInputs.cache
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\Todas en una.AssemblyInfo.cs
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\Todas en una.csproj.CoreCompileInputs.cache
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\Todas en una.dll
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\refint\Todas en una.dll
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\Todas en una.pdb
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\bin\Debug\net8.0\Todas en una.exe
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\bin\Debug\net8.0\Todas en una.deps.json
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\bin\Debug\net8.0\Todas en una.runtimeconfig.json
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\bin\Debug\net8.0\Todas en una.dll
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\bin\Debug\net8.0\Todas en una.pdb
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\Todas en una.genruntimeconfig.cache
+H:\Programacion S.I\Programación\EjerciciosC#\EjerciciosC#\obj\Debug\net8.0\ref\Todas en una.dll

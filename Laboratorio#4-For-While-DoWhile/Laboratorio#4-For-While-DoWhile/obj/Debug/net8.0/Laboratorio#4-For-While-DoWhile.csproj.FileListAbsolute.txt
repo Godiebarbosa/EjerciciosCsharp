@@ -1,0 +1,14 @@
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\Laboratorio#4-For-While-DoWhile.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\Laboratorio#4-For-While-DoWhile.AssemblyInfoInputs.cache
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\Laboratorio#4-For-While-DoWhile.AssemblyInfo.cs
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\Laboratorio#4-For-While-DoWhile.csproj.CoreCompileInputs.cache
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\bin\Debug\net8.0\Laboratorio#4-For-While-DoWhile.exe
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\bin\Debug\net8.0\Laboratorio#4-For-While-DoWhile.deps.json
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\bin\Debug\net8.0\Laboratorio#4-For-While-DoWhile.runtimeconfig.json
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\bin\Debug\net8.0\Laboratorio#4-For-While-DoWhile.dll
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\bin\Debug\net8.0\Laboratorio#4-For-While-DoWhile.pdb
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\Laboratorio#4-For-While-DoWhile.dll
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\refint\Laboratorio#4-For-While-DoWhile.dll
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\Laboratorio#4-For-While-DoWhile.pdb
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\Laboratorio#4-For-While-DoWhile.genruntimeconfig.cache
+H:\Programacion S.I\Programación\Laboratorio#4-For-While-DoWhile\Laboratorio#4-For-While-DoWhile\obj\Debug\net8.0\ref\Laboratorio#4-For-While-DoWhile.dll
