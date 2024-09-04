@@ -1,0 +1,15 @@
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\Laboratorio#6While.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\Laboratorio#6While.AssemblyInfoInputs.cache
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\Laboratorio#6While.AssemblyInfo.cs
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\Laboratorio#6While.csproj.CoreCompileInputs.cache
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\Laboratorio#6While.sourcelink.json
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\bin\Debug\net8.0\Laboratorio#6While.exe
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\bin\Debug\net8.0\Laboratorio#6While.deps.json
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\bin\Debug\net8.0\Laboratorio#6While.runtimeconfig.json
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\bin\Debug\net8.0\Laboratorio#6While.dll
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\bin\Debug\net8.0\Laboratorio#6While.pdb
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\Laboratorio#6While.dll
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\refint\Laboratorio#6While.dll
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\Laboratorio#6While.pdb
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\Laboratorio#6While.genruntimeconfig.cache
+G:\Programacion S.I\Programación\Laboratorio#6WHILE\Laboratorio#6While\obj\Debug\net8.0\ref\Laboratorio#6While.dll
