@@ -1,0 +1,15 @@
+H:\Programacion S.I\Programación\prueba\Suma2Num\bin\Debug\net8.0\Suma2Num.exe
+H:\Programacion S.I\Programación\prueba\Suma2Num\bin\Debug\net8.0\Suma2Num.deps.json
+H:\Programacion S.I\Programación\prueba\Suma2Num\bin\Debug\net8.0\Suma2Num.runtimeconfig.json
+H:\Programacion S.I\Programación\prueba\Suma2Num\bin\Debug\net8.0\Suma2Num.dll
+H:\Programacion S.I\Programación\prueba\Suma2Num\bin\Debug\net8.0\Suma2Num.pdb
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\Suma2Num.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\Suma2Num.AssemblyInfoInputs.cache
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\Suma2Num.AssemblyInfo.cs
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\Suma2Num.csproj.CoreCompileInputs.cache
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\Suma2Num.sourcelink.json
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\Suma2Num.dll
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\refint\Suma2Num.dll
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\Suma2Num.pdb
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\Suma2Num.genruntimeconfig.cache
+H:\Programacion S.I\Programación\prueba\Suma2Num\obj\Debug\net8.0\ref\Suma2Num.dll

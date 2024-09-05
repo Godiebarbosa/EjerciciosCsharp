@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Suma2Num/1.0.0": {
+        "runtime": {
+          "Suma2Num.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Suma2Num/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
