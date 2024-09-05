@@ -1,24 +1,9 @@
 ﻿using System;
 namespace Program1
 {
-    class Program   
+    public static class calculadora
     {
-        static void Main(string[] args)
-        {
-            sum2num.Sum2Num();
-            calculadora.calculadora();
-        }
-        //Suma Dos Numeros 
-        static void sum2num()
-        {
-            Console.WriteLine("Dijite el primer numero a sumar");
-            int i = int.Parse(Console.ReadLine());
-            Console.WriteLine("Dijite el segundo numero a sumar");
-            int i2 = int.Parse(Console.ReadLine());
-            Console.WriteLine($"{i} + {i2} = {i + i2} ");
-        }
-        //calculadora de todas las operaciones
-        static void calculadora()
+        public  static void Calculadora()
         {
             Console.WriteLine("Dijite Operacion a utililizar");
             string operacion = Console.ReadLine(":");
