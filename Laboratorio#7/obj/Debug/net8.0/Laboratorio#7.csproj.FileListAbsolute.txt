@@ -1,0 +1,15 @@
+G:\Programacion S.I\Programación\Laboratorio#7\bin\Debug\net8.0\Laboratorio#7.exe
+G:\Programacion S.I\Programación\Laboratorio#7\bin\Debug\net8.0\Laboratorio#7.deps.json
+G:\Programacion S.I\Programación\Laboratorio#7\bin\Debug\net8.0\Laboratorio#7.runtimeconfig.json
+G:\Programacion S.I\Programación\Laboratorio#7\bin\Debug\net8.0\Laboratorio#7.dll
+G:\Programacion S.I\Programación\Laboratorio#7\bin\Debug\net8.0\Laboratorio#7.pdb
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\Laboratorio#7.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\Laboratorio#7.AssemblyInfoInputs.cache
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\Laboratorio#7.AssemblyInfo.cs
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\Laboratorio#7.csproj.CoreCompileInputs.cache
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\Laboratorio#7.sourcelink.json
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\Laboratorio#7.dll
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\refint\Laboratorio#7.dll
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\Laboratorio#7.pdb
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\Laboratorio#7.genruntimeconfig.cache
+G:\Programacion S.I\Programación\Laboratorio#7\obj\Debug\net8.0\ref\Laboratorio#7.dll
