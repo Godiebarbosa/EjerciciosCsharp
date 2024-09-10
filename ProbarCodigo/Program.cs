@@ -1,16 +1,47 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Lab7
 {
-    public static class Solucion2
+    class Program
     {
-                public static void EncontrarElNúmeroPrimoMásCercano()
+        public static void Main(string[] args)
+        {
+            GenerarLaSecuenciaFibonacci();
+            EncontrarElNúmeroPrimoMásCercano();
+            SumarDígitosDeUnNúmero();
+            FactorialRecursivo();
+            DibujarUnTriánguloInversoDeAsteriscos();
+            NúmeroPalíndromo();
+            JuegoDeAdivinanzaConIntentosLimitados();
+            MenúInteractivoDeOperacionesMatemáticas();
+            SumaDeLosNúmerosPrimosEntre1yn();
+            ContarLaFrecuenciaDeCaracteresEnUnaPalabra();
+        }
+
+        // 1
+        public static void GenerarLaSecuenciaFibonacci()
+        {
+            int v1 = 1;
+            int v2 = 2;
+            Console.WriteLine(v1);
+            Console.WriteLine(v2);
+            for (int i = 0; i < 13; i++)
+            {
+                int temp = v1;
+                v1 = v2;
+                v2 = temp + v1;
+                Console.WriteLine(v1);
+            }
+        }
+
+        // 2
+        public static void EncontrarElNúmeroPrimoMásCercano()
         {
             Console.WriteLine("Ingrese un número:");
             if (int.TryParse(Console.ReadLine(), out int num))
             {
                 int candidato = num;
-
                 while (candidato > 1)
                 {
                     if (EsPrimo(candidato))
@@ -20,7 +51,6 @@ namespace Lab7
                     }
                     candidato--;
                 }
-
                 Console.WriteLine("No hay números primos menores o iguales al número ingresado.");
             }
             else
@@ -43,5 +73,3 @@ namespace Lab7
 
             return true;
         }
-    }   
-}

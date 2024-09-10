@@ -1,60 +1,104 @@
 ﻿using System;
+
 namespace Program1
 {
-    class Program   
+    class Program
     {
         static void Main(string[] args)
         {
-            sum2num.Sum2Num();
-            calculadora.calculadora();
+            Sum2Num();
+            Calculadora();
+            CalcularRaizCuadrada();
         }
-        //Suma Dos Numeros 
-        static void sum2num()
-        {
-            Console.WriteLine("Dijite el primer numero a sumar");
-            int i = int.Parse(Console.ReadLine());
-            Console.WriteLine("Dijite el segundo numero a sumar");
-            int i2 = int.Parse(Console.ReadLine());
-            Console.WriteLine($"{i} + {i2} = {i + i2} ");
-        }
-        //calculadora de todas las operaciones
-        static void calculadora()
-        {
-            Console.WriteLine("Dijite Operacion a utililizar");
-            string operacion = Console.ReadLine(":");
-            Console.Write("1 = suma");
-            Console.Write("2 = resta");
-            Console.Write("3 = multiplicacion");
-            Console.Write("4 = division");
 
-            Console.WriteLine("Dijite el primer numero a sumar");
-            int num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Dijite el segundo numero a sumar");
-            int num2 = int.Parse(Console.ReadLine());
-            switch(operacion)//evalua la operacion +,-,*,/
+        // Suma Dos Numeros
+        static void Sum2Num()
+        {
+            try
             {
-                case 1:
-                Console.WriteLine($"resultado: {num1} + {num2} = {num1 + num2}");
-                break;
-                case 2:
-                Console.WriteLine($"resultado: {num1} - {num2} = {num1 - num2}");
-                break;
-                case 3:
-                Console.WriteLine($"resultado: {num1} + {num2} = {num1 }");
-                break;
-                case 4:
-                if (num2 != 0) //Verifica que no haya division por cero
+                Console.WriteLine("Digite el primer numero a sumar:");
+                int i = int.Parse(Console.ReadLine());
+                Console.WriteLine("Digite el segundo numero a sumar:");
+                int i2 = int.Parse(Console.ReadLine());
+                Console.WriteLine($"{i} + {i2} = {i + i2}");
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Entrada no válida. Por favor ingrese un número entero.");
+            }
+        }
+
+        // Calculadora de todas las operaciones
+        static void Calculadora()
+        {
+            try
+            {
+                Console.WriteLine("Digite la operación a utilizar:");
+                Console.WriteLine("1 = suma");
+                Console.WriteLine("2 = resta");
+                Console.WriteLine("3 = multiplicación");
+                Console.WriteLine("4 = división");
+                
+                int operacion = int.Parse(Console.ReadLine());
+                
+                Console.WriteLine("Digite el primer número:");
+                int num1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Digite el segundo número:");
+                int num2 = int.Parse(Console.ReadLine());
+                
+                switch (operacion)
                 {
-                    Console.WriteLine($"Resultado: {num1} / {num2} {num1 / num2}");
+                    case 1:
+                        Console.WriteLine($"Resultado: {num1} + {num2} = {num1 + num2}");
+                        break;
+                    case 2:
+                        Console.WriteLine($"Resultado: {num1} - {num2} = {num1 - num2}");
+                        break;
+                    case 3:
+                        Console.WriteLine($"Resultado: {num1} * {num2} = {num1 * num2}");
+                        break;
+                    case 4:
+                        if (num2 != 0)
+                        {
+                            Console.WriteLine($"Resultado: {num1} / {num2} = {(double)num1 / num2}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Error: División por cero no permitida.");
+                        }
+                        break;
+                    default:
+                        Console.WriteLine("Operación inválida.");
+                        break;
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Entrada no válida. Por favor ingrese un número entero.");
+            }
+        }
+
+        // Calcular la raíz cuadrada
+        public static void CalcularRaizCuadrada()
+        {
+            try
+            {
+                Console.WriteLine("Ingrese el número del cual desea obtener la raíz cuadrada:");
+                double numero = double.Parse(Console.ReadLine());
+                
+                if (numero < 0)
+                {
+                    Console.WriteLine("Error: No se puede calcular la raíz cuadrada de un número negativo.");
                 }
                 else
                 {
-                    Console.WriteLine("Error: Division por cero no permitida.");
+                    double resultado = Math.Sqrt(numero);
+                    Console.WriteLine($"La raíz cuadrada de {numero} es {resultado}");
                 }
-                break;
-            default:
-            Console.WriteLine("Operacion Invalida");
-            break;
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Entrada no válida. Por favor ingrese un número.");
             }
         }
     }

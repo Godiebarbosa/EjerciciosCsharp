@@ -1,0 +1,15 @@
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ProbarCodigo.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ProbarCodigo.AssemblyInfoInputs.cache
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ProbarCodigo.AssemblyInfo.cs
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ProbarCodigo.csproj.CoreCompileInputs.cache
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ProbarCodigo.sourcelink.json
+G:\Programacion S.I\Programación\ProbarCodigo\bin\Debug\net8.0\ProbarCodigo.exe
+G:\Programacion S.I\Programación\ProbarCodigo\bin\Debug\net8.0\ProbarCodigo.deps.json
+G:\Programacion S.I\Programación\ProbarCodigo\bin\Debug\net8.0\ProbarCodigo.runtimeconfig.json
+G:\Programacion S.I\Programación\ProbarCodigo\bin\Debug\net8.0\ProbarCodigo.dll
+G:\Programacion S.I\Programación\ProbarCodigo\bin\Debug\net8.0\ProbarCodigo.pdb
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ProbarCodigo.dll
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\refint\ProbarCodigo.dll
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ProbarCodigo.pdb
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ProbarCodigo.genruntimeconfig.cache
+G:\Programacion S.I\Programación\ProbarCodigo\obj\Debug\net8.0\ref\ProbarCodigo.dll
