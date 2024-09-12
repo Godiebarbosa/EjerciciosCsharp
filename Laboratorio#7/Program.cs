@@ -1,40 +1,47 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace Lab7
 {
     class Program
     {
         public static void Main()
         {
-            Solucion1.GenerarLaSecuenciaFibonacci();
-            Solucion2.EncontrarElNúmeroPrimoMásCercano();
-            Solucion3.SumarDígitosDeUnNúmero();
-            Solucion4.FactorialRecursivo();
-            Solucion5.DibujarUnTriánguloInversoDeAsteriscos();
-            Solucion6.NúmeroPalíndromo();
-            Solucion7.JuegoDeAdivinanzaConIntentosLimitados();
-            Solucion8.MenúInteractivoDeOperacionesMatemáticas();
-            Solucion9.SumaDeLosNúmerosPrimosEntre1yn();
-            Solucion10.ContarLaFrecuenciaDeCaracteresEnUnaPalabra();
+            // Llamada a los métodos para ejecutar cada funcionalidad
+            GenerarLaSecuenciaFibonacci();
+            EncontrarElNúmeroPrimoMásCercano();
+            SumarDigitosDeUnNumero();
+            FactorialRecursivo();
+            DibujarUnTriánguloInversoDeAsteriscos();
+            NúmeroPalíndromo();
+            JuegoDeAdivinanzaConIntentosLimitados();
+            MenúInteractivoDeOperacionesMatemáticas();
+            SumaDeLosNúmerosPrimosEntre1yn();
+            ContarLaFrecuenciaDeCaracteresEnUnaPalabra();
         }
-        //1
+
+        // 1. Generar la secuencia de Fibonacci
         public static void GenerarLaSecuenciaFibonacci()
-            {
+        {
             int v1 = 1;
             int v2 = 2;
-            //Mostar el primer numero en 0
-            Console.WriteLine(v1);
-            //en este caso generamos hasta 15
-                for(int i = 0; i <= 13; i ++);
-                {
-                    int temp = v1;
-                    v1 = v2;
-                    v2 = temp + v1;
 
-                    Console.WriteLine($"{v1}");
-                }    
+            // Mostrar el primer número de la secuencia
+            Console.WriteLine(v1);
+
+            // Generar los siguientes 14 números de la secuencia (hasta 15 en total)
+            for (int i = 0; i < 14; i++)
+            {
+                int temp = v1;
+                v1 = v2;
+                v2 = temp + v1;
+
+                Console.WriteLine($"{v1}");
             }
-        //2
-                public static void EncontrarElNúmeroPrimoMásCercano()
+        }
+
+        // 2. Encontrar el número primo más cercano menor o igual al ingresado
+        public static void EncontrarElNúmeroPrimoMásCercano()
         {
             Console.WriteLine("Ingrese un número:");
             if (int.TryParse(Console.ReadLine(), out int num))
@@ -73,72 +80,57 @@ namespace Lab7
 
             return true;
         }
-        //3
-        public static void SumarDígitosDeUnNúmero()
+
+        // 3. Sumar los dígitos de un número
         public static void SumarDigitosDeUnNumero()
         {
-            int num;  // Variable para almacenar el número ingresado por el usuario
-            
+            int num;
+
             do
             {
-                // Solicita al usuario que ingrese un número entero
                 Console.Write("Digite un número entero (0 para salir): ");
-                
-                // Lee la entrada del usuario como una cadena
                 string entrada = Console.ReadLine();
-                
-                // Intenta convertir la cadena a un número entero
-                // Si la conversión falla, num se establece en 0
+
                 if (!int.TryParse(entrada, out num))
                 {
-                    // Si la entrada no es un número entero, muestra un mensaje de error
                     Console.WriteLine("Entrada no válida. Por favor, ingresa un número entero.");
-                    continue; // Vuelve al inicio del bucle para pedir la entrada nuevamente
+                    continue;
                 }
 
-                // Si el número ingresado no es 0, calcula y muestra la suma de los dígitos
                 if (num != 0)
                 {
-                    int suma = SumarDigitos(num); // Llama a la función SumarDigitos para calcular la suma
+                    int suma = SumarDigitos(num);
                     Console.WriteLine($"La suma de los dígitos del número {num} es {suma}.");
                 }
-                
-            } while (num != 0); // El bucle se repite hasta que el usuario ingrese 0
+
+            } while (num != 0);
         }
 
         // Función para calcular la suma de los dígitos de un número entero
         static int SumarDigitos(int numero)
         {
-            int suma = 0; // Variable para almacenar la suma de los dígitos
-            
-            // Mientras el número sea mayor que 0
+            int suma = 0;
             while (numero > 0)
             {
-                // Suma el último dígito del número a la variable suma
                 suma += numero % 10;
-                // Elimina el último dígito del número
                 numero /= 10;
             }
-            
-            // Devuelve la suma total de los dígitos
             return suma;
         }
-        //4
-               public static void FactorialRecursivo()
+
+        // 4. Calcular el factorial de un número impar usando recursión
+        public static void FactorialRecursivo()
         {
             Console.Write("Introduce un número: ");
             if (int.TryParse(Console.ReadLine(), out int numero))
             {
-                // Verifica si el número es impar
                 if (numero % 2 != 0)
                 {
-                    // Calcula y muestra el factorial si el número es impar
                     long resultado = CalcularFactorial(numero);
                     Console.WriteLine($"El factorial de {numero} es {resultado}.");
                 }
                 else
                 {
-                    // Muestra un mensaje si el número es par
                     Console.WriteLine("No se calcula el factorial de números pares.");
                 }
             }
@@ -156,43 +148,42 @@ namespace Lab7
             else
                 return n * CalcularFactorial(n - 1);
         }
-        //5
-  public static void DibujarUnTriánguloInversoDeAsteriscos()
+
+        // 5. Dibujar un triángulo invertido de asteriscos
+        public static void DibujarUnTriánguloInversoDeAsteriscos()
         {
-            {
-            int n = 5; // Define una variable entera 'n' que representa el número de niveles de la pirámide.
-            
-            // Inicia un bucle 'for' que itera desde 1 hasta 'n' (inclusive), para cada nivel de la pirámide.
+            int n = 5;
+
             for (int i = 1; i <= n; i++)
             {
-                // Imprimir espacios. Este bucle 'for' imprime espacios antes de los asteriscos en cada línea.
-                // La cantidad de espacios disminuye a medida que 'i' aumenta, para centrar la pirámide.
                 for (int j = n; j > i; j--)
                 {
-                    Console.Write(" "); // Imprime un espacio sin saltar de línea.
+                    Console.Write(" ");
                 }
-                
-                // Imprimir asteriscos. Este bucle 'for' imprime los asteriscos en cada línea.
-                // La cantidad de asteriscos es siempre un número impar: 1, 3, 5, etc.
+
                 for (int k = 1; k <= (2 * i - 1); k++)
                 {
-                    Console.Write("*"); // Imprime un asterisco sin saltar de línea.
+                    Console.Write("*");
                 }
-                
-                // Imprime una nueva línea después de cada nivel de la pirámide.
+
                 Console.WriteLine();
-        //6
- public static void NúmeroPalíndromo()
+            }
+        }
+
+        // 6. Verificar si un número es palíndromo
+        public static void NúmeroPalíndromo()
         {
-                        Console.Write("Ingresa un número: ");
+            Console.Write("Ingresa un número: ");
             int numero = int.Parse(Console.ReadLine());
             int original = numero, invertido = 0;
+
             while (numero > 0)
             {
                 int digito = numero % 10;
                 invertido = invertido * 10 + digito;
                 numero /= 10;
             }
+
             if (original == invertido)
             {
                 Console.WriteLine("El número es palíndromo.");
@@ -202,44 +193,148 @@ namespace Lab7
                 Console.WriteLine("El número no es palíndromo.");
             }
         }
-        //7
-public static void JuegoDeAdivinanzaConIntentosLimitados()
+
+        // 7. Juego de adivinanza con intentos limitados
+        public static void JuegoDeAdivinanzaConIntentosLimitados()
         {
             Random rand = new Random();
             int numeroSecreto = rand.Next(1, 101);
             int intentos = 0;
             int maxIntentos = 10;
             int adivinanza;
-            
+
             do
             {
                 Console.Write("Adivina el número (1-100): ");
                 adivinanza = int.Parse(Console.ReadLine());
                 intentos++;
-                
+
                 if (adivinanza > numeroSecreto)
                     Console.WriteLine("Demasiado alto.");
                 else if (adivinanza < numeroSecreto)
                     Console.WriteLine("Demasiado bajo.");
-                
+
             } while (adivinanza != numeroSecreto && intentos < maxIntentos);
 
             if (adivinanza == numeroSecreto)
                 Console.WriteLine("¡Has adivinado!");
             else
                 Console.WriteLine("Has perdido. El número era " + numeroSecreto);
-        }      
-        //8
+        }
+
+        // 8. Menú interactivo de operaciones matemáticas
         public static void MenúInteractivoDeOperacionesMatemáticas()
         {
+            int opcion;
+            do
+            {
+                Console.WriteLine("Menú de Operaciones Matemáticas:");
+                Console.WriteLine("1. Suma");
+                Console.WriteLine("2. Resta");
+                Console.WriteLine("3. Multiplicación");
+                Console.WriteLine("4. División");
+                Console.WriteLine("5. Potencia");
+                Console.WriteLine("6. Salir");
+                Console.Write("Elige una opción: ");
+                opcion = int.Parse(Console.ReadLine());
+
+                if (opcion >= 1 && opcion <= 5)
+                {
+                    Console.Write("Introduce el primer número: ");
+                    double num1 = double.Parse(Console.ReadLine());
+
+                    Console.Write("Introduce el segundo número: ");
+                    double num2 = double.Parse(Console.ReadLine());
+
+                    switch (opcion)
+                    {
+                        case 1:
+                            Console.WriteLine($"Resultado: {num1 + num2}");
+                            break;
+                        case 2:
+                            Console.WriteLine($"Resultado: {num1 - num2}");
+                            break;
+                        case 3:
+                            Console.WriteLine($"Resultado: {num1 * num2}");
+                            break;
+                        case 4:
+                            if (num2 != 0)
+                                Console.WriteLine($"Resultado: {num1 / num2}");
+                            else
+                                Console.WriteLine("No se puede dividir por cero.");
+                            break;
+                        case 5:
+                            Console.WriteLine($"Resultado: {Math.Pow(num1, num2)}");
+                            break;
+                    }
+                }
+                else if (opcion != 6)
+                {
+                    Console.WriteLine("Opción no válida.");
+                }
+
+            } while (opcion != 6);
+            Console.WriteLine("Programa finalizado.");
         }
-        //9
+
+        // 9. Sumar los números primos entre 1 y n
         public static void SumaDeLosNúmerosPrimosEntre1yn()
         {
+            Console.Write("Introduce un número n: ");
+            int n = int.Parse(Console.ReadLine());
+            int sumaPrimos = 0;
+
+            for (int i = 2; i <= n; i++)
+            {
+                if (EsPrimo(i))
+                {
+                    sumaPrimos += i;
+                }
+            }
+
+            Console.WriteLine($"La suma de los números primos entre 1 y {n} es: {sumaPrimos}");
         }
-        //10
+
+        // Función para verificar si un número es primo
+        static bool siEsPrimo(int numero)
+        {
+            if (numero <= 1) return false;
+            if (numero == 2) return true;
+            if (numero % 2 == 0) return false;
+
+            for (int i = 3; i * i <= numero; i += 2)
+            {
+                if (numero % i == 0)
+                    return false;
+            }
+
+            return true;
+        }
+
+        // 10. Contar la frecuencia de caracteres en una palabra
         public static void ContarLaFrecuenciaDeCaracteresEnUnaPalabra()
         {
+            Console.Write("Introduce una palabra: ");
+            string palabra = Console.ReadLine();
+            Dictionary<char, int> frecuencias = new Dictionary<char, int>();
+
+            foreach (char c in palabra)
+            {
+                if (frecuencias.ContainsKey(c))
+                {
+                    frecuencias[c]++;
+                }
+                else
+                {
+                    frecuencias[c] = 1;
+                }
+            }
+
+            Console.WriteLine("Frecuencia de caracteres:");
+            foreach (var par in frecuencias)
+            {
+                Console.WriteLine($"{par.Key}: {par.Value}");
+            }
         }
     }
 }

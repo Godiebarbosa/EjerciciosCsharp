@@ -6,7 +6,6 @@ namespace Lab7
     {
         public static void SumaDeLosNúmerosPrimosEntre1yn()
         {
-            using System;
             {
                 Console.Write("Introduce un número n: ");
                 int n = int.Parse(Console.ReadLine());
