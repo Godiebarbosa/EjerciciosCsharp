@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProbarCodigo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38fcf9b03e2718f9fbbfb8bc7d3246419d6955eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c356ef720ec754da8bfdf84f054d3a34b28b01bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProbarCodigo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProbarCodigo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

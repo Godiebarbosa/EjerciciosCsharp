@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj": {}
+    "H:\\Programacion S.I\\Programación\\Solucion#8\\Solucion1Lab8\\Solucion1Lab8.csproj": {}
   },
   "projects": {
-    "H:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj": {
+    "H:\\Programacion S.I\\Programación\\Solucion#8\\Solucion1Lab8\\Solucion1Lab8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj",
-        "projectName": "ProbarCodigo",
-        "projectPath": "H:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj",
+        "projectUniqueName": "H:\\Programacion S.I\\Programación\\Solucion#8\\Solucion1Lab8\\Solucion1Lab8.csproj",
+        "projectName": "Solucion1Lab8",
+        "projectPath": "H:\\Programacion S.I\\Programación\\Solucion#8\\Solucion1Lab8\\Solucion1Lab8.csproj",
         "packagesPath": "C:\\Users\\D\\.nuget\\packages\\",
-        "outputPath": "H:\\Programacion S.I\\Programación\\ProbarCodigo\\obj\\",
+        "outputPath": "H:\\Programacion S.I\\Programación\\Solucion#8\\Solucion1Lab8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\D\\AppData\\Roaming\\NuGet\\NuGet.Config",
