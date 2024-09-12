@@ -1,16 +1,21 @@
 ﻿using System;
 
-namespace Laboratorio5
+class Lab7
 {
-    public static class Solucion1
-    {
-        public static void imprimeNumeros1a10()
-        {
-        for (int i = 1; i <= 10; i++) // Bucle que comienza en 1 y termina en 10
-        {
-            Console.WriteLine(i); // Imprime el valor de i en cada iteración
-        }
+        static void Main()
+            {
+            int v1 = 1;
+            int v2 = 2;
+            //Mostar el primer numero en 0
+            Console.WriteLine(v1);
+            //en este caso generamos hasta 15
+                for(int i = 0; i <= 13; i ++);
+                {
+                    int temp = v1;
+                    v1 = v2;
+                    v2 = temp + v1;
 
-        }
+                    Console.WriteLine($"{v1}");
+                }    
+            }
     }
-}
