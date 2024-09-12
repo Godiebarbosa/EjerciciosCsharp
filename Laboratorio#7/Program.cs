@@ -152,188 +152,187 @@ namespace Lab7
         // 5. Dibujar un triángulo invertido de asteriscos
         public static void DibujarUnTriánguloInversoDeAsteriscos()
         {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
+        int n = 1; // Define una variable entera 'n' que representa el número de niveles de la pirámide.
+            
+            // Inicia un bucle 'for' que itera desde 1 hasta 'n' (inclusive), para cada nivel de la pirámide.
+            for (int i = 5; i >= n; i--)
             {
-                for (int j = n; j > i; j--)
+                for (int j = 0; j < i; j++)
                 {
                     Console.Write(" ");
                 }
-
                 for (int k = 1; k <= (2 * i - 1); k++)
                 {
                     Console.Write("*");
                 }
-
                 Console.WriteLine();
             }
         }
-
         // 6. Verificar si un número es palíndromo
         public static void NúmeroPalíndromo()
         {
-            Console.Write("Ingresa un número: ");
-            int numero = int.Parse(Console.ReadLine());
-            int original = numero, invertido = 0;
+                Console.Write("Ingresa un número: ");
+                int numero = int.Parse(Console.ReadLine());
+                int original = numero, invertido = 0;
 
-            while (numero > 0)
-            {
-                int digito = numero % 10;
-                invertido = invertido * 10 + digito;
-                numero /= 10;
-            }
-
-            if (original == invertido)
-            {
-                Console.WriteLine("El número es palíndromo.");
-            }
-            else
-            {
-                Console.WriteLine("El número no es palíndromo.");
-            }
-        }
-
-        // 7. Juego de adivinanza con intentos limitados
-        public static void JuegoDeAdivinanzaConIntentosLimitados()
-        {
-            Random rand = new Random();
-            int numeroSecreto = rand.Next(1, 101);
-            int intentos = 0;
-            int maxIntentos = 10;
-            int adivinanza;
-
-            do
-            {
-                Console.Write("Adivina el número (1-100): ");
-                adivinanza = int.Parse(Console.ReadLine());
-                intentos++;
-
-                if (adivinanza > numeroSecreto)
-                    Console.WriteLine("Demasiado alto.");
-                else if (adivinanza < numeroSecreto)
-                    Console.WriteLine("Demasiado bajo.");
-
-            } while (adivinanza != numeroSecreto && intentos < maxIntentos);
-
-            if (adivinanza == numeroSecreto)
-                Console.WriteLine("¡Has adivinado!");
-            else
-                Console.WriteLine("Has perdido. El número era " + numeroSecreto);
-        }
-
-        // 8. Menú interactivo de operaciones matemáticas
-        public static void MenúInteractivoDeOperacionesMatemáticas()
-        {
-            int opcion;
-            do
-            {
-                Console.WriteLine("Menú de Operaciones Matemáticas:");
-                Console.WriteLine("1. Suma");
-                Console.WriteLine("2. Resta");
-                Console.WriteLine("3. Multiplicación");
-                Console.WriteLine("4. División");
-                Console.WriteLine("5. Potencia");
-                Console.WriteLine("6. Salir");
-                Console.Write("Elige una opción: ");
-                opcion = int.Parse(Console.ReadLine());
-
-                if (opcion >= 1 && opcion <= 5)
+                while (numero > 0)
                 {
-                    Console.Write("Introduce el primer número: ");
-                    double num1 = double.Parse(Console.ReadLine());
-
-                    Console.Write("Introduce el segundo número: ");
-                    double num2 = double.Parse(Console.ReadLine());
-
-                    switch (opcion)
-                    {
-                        case 1:
-                            Console.WriteLine($"Resultado: {num1 + num2}");
-                            break;
-                        case 2:
-                            Console.WriteLine($"Resultado: {num1 - num2}");
-                            break;
-                        case 3:
-                            Console.WriteLine($"Resultado: {num1 * num2}");
-                            break;
-                        case 4:
-                            if (num2 != 0)
-                                Console.WriteLine($"Resultado: {num1 / num2}");
-                            else
-                                Console.WriteLine("No se puede dividir por cero.");
-                            break;
-                        case 5:
-                            Console.WriteLine($"Resultado: {Math.Pow(num1, num2)}");
-                            break;
-                    }
-                }
-                else if (opcion != 6)
-                {
-                    Console.WriteLine("Opción no válida.");
+                    int digito = numero % 10;
+                    invertido = invertido * 10 + digito;
+                    numero /= 10;
                 }
 
-            } while (opcion != 6);
-            Console.WriteLine("Programa finalizado.");
-        }
-
-        // 9. Sumar los números primos entre 1 y n
-        public static void SumaDeLosNúmerosPrimosEntre1yn()
-        {
-            Console.Write("Introduce un número n: ");
-            int n = int.Parse(Console.ReadLine());
-            int sumaPrimos = 0;
-
-            for (int i = 2; i <= n; i++)
-            {
-                if (EsPrimo(i))
+                if (original == invertido)
                 {
-                    sumaPrimos += i;
-                }
-            }
-
-            Console.WriteLine($"La suma de los números primos entre 1 y {n} es: {sumaPrimos}");
-        }
-
-        // Función para verificar si un número es primo
-        static bool siEsPrimo(int numero)
-        {
-            if (numero <= 1) return false;
-            if (numero == 2) return true;
-            if (numero % 2 == 0) return false;
-
-            for (int i = 3; i * i <= numero; i += 2)
-            {
-                if (numero % i == 0)
-                    return false;
-            }
-
-            return true;
-        }
-
-        // 10. Contar la frecuencia de caracteres en una palabra
-        public static void ContarLaFrecuenciaDeCaracteresEnUnaPalabra()
-        {
-            Console.Write("Introduce una palabra: ");
-            string palabra = Console.ReadLine();
-            Dictionary<char, int> frecuencias = new Dictionary<char, int>();
-
-            foreach (char c in palabra)
-            {
-                if (frecuencias.ContainsKey(c))
-                {
-                    frecuencias[c]++;
+                    Console.WriteLine("El número es palíndromo.");
                 }
                 else
                 {
-                    frecuencias[c] = 1;
+                    Console.WriteLine("El número no es palíndromo.");
                 }
             }
 
-            Console.WriteLine("Frecuencia de caracteres:");
-            foreach (var par in frecuencias)
+            // 7. Juego de adivinanza con intentos limitados
+            public static void JuegoDeAdivinanzaConIntentosLimitados()
             {
-                Console.WriteLine($"{par.Key}: {par.Value}");
+                Random rand = new Random();
+                int numeroSecreto = rand.Next(1, 101);
+                int intentos = 0;
+                int maxIntentos = 10;
+                int adivinanza;
+
+                do
+                {
+                    Console.Write("Adivina el número (1-100): ");
+                    adivinanza = int.Parse(Console.ReadLine());
+                    intentos++;
+
+                    if (adivinanza > numeroSecreto)
+                        Console.WriteLine("Demasiado alto.");
+                    else if (adivinanza < numeroSecreto)
+                        Console.WriteLine("Demasiado bajo.");
+
+                } while (adivinanza != numeroSecreto && intentos < maxIntentos);
+
+                if (adivinanza == numeroSecreto)
+                    Console.WriteLine("¡Has adivinado!");
+                else
+                    Console.WriteLine("Has perdido. El número era " + numeroSecreto);
+            }
+
+            // 8. Menú interactivo de operaciones matemáticas
+            public static void MenúInteractivoDeOperacionesMatemáticas()
+            {
+                int opcion;
+                do
+                {
+                    Console.WriteLine("Menú de Operaciones Matemáticas:");
+                    Console.WriteLine("1. Suma");
+                    Console.WriteLine("2. Resta");
+                    Console.WriteLine("3. Multiplicación");
+                    Console.WriteLine("4. División");
+                    Console.WriteLine("5. Potencia");
+                    Console.WriteLine("6. Salir");
+                    Console.Write("Elige una opción: ");
+                    opcion = int.Parse(Console.ReadLine());
+
+                    if (opcion >= 1 && opcion <= 5)
+                    {
+                        Console.Write("Introduce el primer número: ");
+                        double num1 = double.Parse(Console.ReadLine());
+
+                        Console.Write("Introduce el segundo número: ");
+                        double num2 = double.Parse(Console.ReadLine());
+
+                        switch (opcion)
+                        {
+                            case 1:
+                                Console.WriteLine($"Resultado: {num1 + num2}");
+                                break;
+                            case 2:
+                                Console.WriteLine($"Resultado: {num1 - num2}");
+                                break;
+                            case 3:
+                                Console.WriteLine($"Resultado: {num1 * num2}");
+                                break;
+                            case 4:
+                                if (num2 != 0)
+                                    Console.WriteLine($"Resultado: {num1 / num2}");
+                                else
+                                    Console.WriteLine("No se puede dividir por cero.");
+                                break;
+                            case 5:
+                                Console.WriteLine($"Resultado: {Math.Pow(num1, num2)}");
+                                break;
+                        }
+                    }
+                    else if (opcion != 6)
+                    {
+                        Console.WriteLine("Opción no válida.");
+                    }
+
+                } while (opcion != 6);
+                Console.WriteLine("Programa finalizado.");
+            }
+
+            // 9. Sumar los números primos entre 1 y n
+            public static void SumaDeLosNúmerosPrimosEntre1yn()
+            {
+                Console.Write("Introduce un número n: ");
+                int n = int.Parse(Console.ReadLine());
+                int sumaPrimos = 0;
+
+                for (int i = 2; i <= n; i++)
+                {
+                    if (EsPrimo(i))
+                    {
+                        sumaPrimos += i;
+                    }
+                }
+
+                Console.WriteLine($"La suma de los números primos entre 1 y {n} es: {sumaPrimos}");
+            }
+
+            // Función para verificar si un número es primo
+            static bool siEsPrimo(int numero)
+            {
+                if (numero <= 1) return false;
+                if (numero == 2) return true;
+                if (numero % 2 == 0) return false;
+
+                for (int i = 3; i * i <= numero; i += 2)
+                {
+                    if (numero % i == 0)
+                        return false;
+                }
+
+                return true;
+            }
+
+            // 10. Contar la frecuencia de caracteres en una palabra
+            public static void ContarLaFrecuenciaDeCaracteresEnUnaPalabra()
+            {
+                Console.Write("Introduce una palabra: ");
+                string palabra = Console.ReadLine();
+                Dictionary<char, int> frecuencias = new Dictionary<char, int>();
+
+                foreach (char c in palabra)
+                {
+                    if (frecuencias.ContainsKey(c))
+                    {
+                        frecuencias[c]++;
+                    }
+                    else
+                    {
+                        frecuencias[c] = 1;
+                    }
+                }
+
+                Console.WriteLine("Frecuencia de caracteres:");
+                foreach (var par in frecuencias)
+                {
+                    Console.WriteLine($"{par.Key}: {par.Value}");
+                }
             }
         }
     }

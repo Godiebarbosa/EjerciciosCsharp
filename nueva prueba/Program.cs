@@ -1,10 +1,9 @@
 ﻿using System;
 
-namespace Lab7
+class Program
 {
-    public static class Solucion5
+        static void Main()
     {
-        public static void DibujarUnTriánguloInversoDeAsteriscos()
             {
             int n = 1; // Define una variable entera 'n' que representa el número de niveles de la pirámide.
             

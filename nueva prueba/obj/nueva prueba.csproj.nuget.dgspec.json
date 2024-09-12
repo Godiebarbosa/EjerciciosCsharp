@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Programacion S.I\\Programación\\Laboratorio#7\\Laboratorio#7.csproj": {}
+    "G:\\Programacion S.I\\Programación\\nueva prueba\\nueva prueba.csproj": {}
   },
   "projects": {
-    "G:\\Programacion S.I\\Programación\\Laboratorio#7\\Laboratorio#7.csproj": {
+    "G:\\Programacion S.I\\Programación\\nueva prueba\\nueva prueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Programacion S.I\\Programación\\Laboratorio#7\\Laboratorio#7.csproj",
-        "projectName": "Laboratorio#7",
-        "projectPath": "G:\\Programacion S.I\\Programación\\Laboratorio#7\\Laboratorio#7.csproj",
+        "projectUniqueName": "G:\\Programacion S.I\\Programación\\nueva prueba\\nueva prueba.csproj",
+        "projectName": "nueva prueba",
+        "projectPath": "G:\\Programacion S.I\\Programación\\nueva prueba\\nueva prueba.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "G:\\Programacion S.I\\Programación\\Laboratorio#7\\obj\\",
+        "outputPath": "G:\\Programacion S.I\\Programación\\nueva prueba\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

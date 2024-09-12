@@ -11,7 +11,7 @@ namespace Lab7
             //Mostar el primer numero en 0
             Console.WriteLine(v1);
             //en este caso generamos hasta 15
-                for(int i = 0; i <= 13; i ++);
+                for(int i = 0; i <= 13; i ++)
                 {
                     int temp = v1;
                     v1 = v2;
