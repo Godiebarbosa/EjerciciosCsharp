@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj": {}
+    "E:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj": {}
   },
   "projects": {
-    "G:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj": {
+    "E:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj",
+        "projectUniqueName": "E:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj",
         "projectName": "ProbarCodigo",
-        "projectPath": "G:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "G:\\Programacion S.I\\Programación\\ProbarCodigo\\obj\\",
+        "projectPath": "E:\\Programacion S.I\\Programación\\ProbarCodigo\\ProbarCodigo.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "E:\\Programacion S.I\\Programación\\ProbarCodigo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

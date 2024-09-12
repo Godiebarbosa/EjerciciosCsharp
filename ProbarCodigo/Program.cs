@@ -1,57 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace Lab7
+class Program
 {
-    class Program
-    {
-        public static void Main(string[] args)
-        {
-            GenerarLaSecuenciaFibonacci();
-            EncontrarElNúmeroPrimoMásCercano();
-            SumarDígitosDeUnNúmero();
-            FactorialRecursivo();
-            DibujarUnTriánguloInversoDeAsteriscos();
-            NúmeroPalíndromo();
-            JuegoDeAdivinanzaConIntentosLimitados();
-            MenúInteractivoDeOperacionesMatemáticas();
-            SumaDeLosNúmerosPrimosEntre1yn();
-            ContarLaFrecuenciaDeCaracteresEnUnaPalabra();
-        }
+    static void Main()
 
-        // 1
-        public static void GenerarLaSecuenciaFibonacci()
-        {
-            int v1 = 1;
-            int v2 = 2;
-            Console.WriteLine(v1);
-            Console.WriteLine(v2);
-            for (int i = 0; i < 13; i++)
-            {
-                int temp = v1;
-                v1 = v2;
-                v2 = temp + v1;
-                Console.WriteLine(v1);
-            }
-        }
 
-        // 2
-        public static void EncontrarElNúmeroPrimoMásCercano()
         {
-            Console.WriteLine("Ingrese un número:");
-            if (int.TryParse(Console.ReadLine(), out int num))
+            Console.Write("Introduce un número: ");
+            if (int.TryParse(Console.ReadLine(), out int numero))
             {
-                int candidato = num;
-                while (candidato > 1)
+                // Verifica si el número es impar
+                if (numero % 2 != 0)
                 {
-                    if (EsPrimo(candidato))
-                    {
-                        Console.WriteLine($"El número primo más cercano menor o igual a {num} es {candidato}");
-                        return;
-                    }
-                    candidato--;
+                    // Calcula y muestra el factorial si el número es impar
+                    long resultado = CalcularFactorial(numero);
+                    Console.WriteLine($"El factorial de {numero} es {resultado}.");
                 }
-                Console.WriteLine("No hay números primos menores o iguales al número ingresado.");
+                else
+                {
+                    // Muestra un mensaje si el número es par
+                    Console.WriteLine("No se calcula el factorial de números pares.");
+                }
             }
             else
             {
@@ -59,17 +28,12 @@ namespace Lab7
             }
         }
 
-        private static bool EsPrimo(int n)
+        // Función para calcular el factorial de un número usando recursión
+        static long CalcularFactorial(int n)
         {
-            if (n <= 1) return false;
-            if (n <= 3) return true;
-            if (n % 2 == 0 || n % 3 == 0) return false;
-
-            for (int i = 5; i * i <= n; i += 6)
-            {
-                if (n % i == 0 || n % (i + 2) == 0)
-                    return false;
-            }
-
-            return true;
+            if (n <= 1)
+                return 1;
+            else
+                return n * CalcularFactorial(n - 1);
         }
+}

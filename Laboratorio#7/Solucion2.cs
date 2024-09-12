@@ -4,7 +4,7 @@ namespace Lab7
 {
     public static class Solucion2
     {
-                public static void EncontrarElNúmeroPrimoMásCercano()
+        public static void EncontrarElNúmeroPrimoMásCercano()
         {
             Console.WriteLine("Ingrese un número:");
             if (int.TryParse(Console.ReadLine(), out int num))
