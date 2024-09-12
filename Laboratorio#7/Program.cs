@@ -7,7 +7,7 @@ namespace Lab7
         {
             Solucion1.GenerarLaSecuenciaFibonacci();
             Solucion2.EncontrarElNúmeroPrimoMásCercano();
-            Solucion3.SumarDigitosDeUnNumero();
+            Solucion3.SumarDígitosDeUnNúmero();
             Solucion4.FactorialRecursivo();
             Solucion5.DibujarUnTriánguloInversoDeAsteriscos();
             Solucion6.NúmeroPalíndromo();
@@ -24,16 +24,17 @@ namespace Lab7
             //Mostar el primer numero en 0
             Console.WriteLine(v1);
             //en este caso generamos hasta 15
-                for(int i = 0; i < 13; i ++);
+                for(int i = 0; i <= 13; i ++);
                 {
                     int temp = v1;
                     v1 = v2;
                     v2 = temp + v1;
-                    Console.WriteLine(v1);
+
+                    Console.WriteLine($"{v1}");
                 }    
             }
         //2
-         public static void EncontrarElNúmeroPrimoMásCercano()
+                public static void EncontrarElNúmeroPrimoMásCercano()
         {
             Console.WriteLine("Ingrese un número:");
             if (int.TryParse(Console.ReadLine(), out int num))
@@ -73,7 +74,8 @@ namespace Lab7
             return true;
         }
         //3
-     public static void SumarDigitosDeUnNumero()
+        public static void SumarDígitosDeUnNúmero()
+        public static void SumarDigitosDeUnNumero()
         {
             int num;  // Variable para almacenar el número ingresado por el usuario
             
@@ -121,24 +123,112 @@ namespace Lab7
             // Devuelve la suma total de los dígitos
             return suma;
         }
-    
         //4
-        public static void FactorialRecursivo()
+               public static void FactorialRecursivo()
         {
+            Console.Write("Introduce un número: ");
+            if (int.TryParse(Console.ReadLine(), out int numero))
+            {
+                // Verifica si el número es impar
+                if (numero % 2 != 0)
+                {
+                    // Calcula y muestra el factorial si el número es impar
+                    long resultado = CalcularFactorial(numero);
+                    Console.WriteLine($"El factorial de {numero} es {resultado}.");
+                }
+                else
+                {
+                    // Muestra un mensaje si el número es par
+                    Console.WriteLine("No se calcula el factorial de números pares.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada no válida. Por favor, ingrese un número entero.");
+            }
+        }
 
+        // Función para calcular el factorial de un número usando recursión
+        static long CalcularFactorial(int n)
+        {
+            if (n <= 1)
+                return 1;
+            else
+                return n * CalcularFactorial(n - 1);
         }
         //5
-        public static void DibujarUnTriánguloInversoDeAsteriscos()
+  public static void DibujarUnTriánguloInversoDeAsteriscos()
         {
-        }
+            {
+            int n = 5; // Define una variable entera 'n' que representa el número de niveles de la pirámide.
+            
+            // Inicia un bucle 'for' que itera desde 1 hasta 'n' (inclusive), para cada nivel de la pirámide.
+            for (int i = 1; i <= n; i++)
+            {
+                // Imprimir espacios. Este bucle 'for' imprime espacios antes de los asteriscos en cada línea.
+                // La cantidad de espacios disminuye a medida que 'i' aumenta, para centrar la pirámide.
+                for (int j = n; j > i; j--)
+                {
+                    Console.Write(" "); // Imprime un espacio sin saltar de línea.
+                }
+                
+                // Imprimir asteriscos. Este bucle 'for' imprime los asteriscos en cada línea.
+                // La cantidad de asteriscos es siempre un número impar: 1, 3, 5, etc.
+                for (int k = 1; k <= (2 * i - 1); k++)
+                {
+                    Console.Write("*"); // Imprime un asterisco sin saltar de línea.
+                }
+                
+                // Imprime una nueva línea después de cada nivel de la pirámide.
+                Console.WriteLine();
         //6
-        public static void NúmeroPalíndromo()
+ public static void NúmeroPalíndromo()
         {
+                        Console.Write("Ingresa un número: ");
+            int numero = int.Parse(Console.ReadLine());
+            int original = numero, invertido = 0;
+            while (numero > 0)
+            {
+                int digito = numero % 10;
+                invertido = invertido * 10 + digito;
+                numero /= 10;
+            }
+            if (original == invertido)
+            {
+                Console.WriteLine("El número es palíndromo.");
+            }
+            else
+            {
+                Console.WriteLine("El número no es palíndromo.");
+            }
         }
         //7
-        public static void JuegoDeAdivinanzaConIntentosLimitados()
+public static void JuegoDeAdivinanzaConIntentosLimitados()
         {
-        }
+            Random rand = new Random();
+            int numeroSecreto = rand.Next(1, 101);
+            int intentos = 0;
+            int maxIntentos = 10;
+            int adivinanza;
+            
+            do
+            {
+                Console.Write("Adivina el número (1-100): ");
+                adivinanza = int.Parse(Console.ReadLine());
+                intentos++;
+                
+                if (adivinanza > numeroSecreto)
+                    Console.WriteLine("Demasiado alto.");
+                else if (adivinanza < numeroSecreto)
+                    Console.WriteLine("Demasiado bajo.");
+                
+            } while (adivinanza != numeroSecreto && intentos < maxIntentos);
+
+            if (adivinanza == numeroSecreto)
+                Console.WriteLine("¡Has adivinado!");
+            else
+                Console.WriteLine("Has perdido. El número era " + numeroSecreto);
+        }      
         //8
         public static void MenúInteractivoDeOperacionesMatemáticas()
         {

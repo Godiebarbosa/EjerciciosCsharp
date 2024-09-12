@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Lab7
 {
@@ -21,4 +21,4 @@ namespace Lab7
                 }    
             }
     }
-}
+} 
